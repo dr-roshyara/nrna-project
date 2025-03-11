@@ -1,11 +1,11 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-8914aab2.css",
+    "file": "assets/app-a826a0a4.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
   "resources/js/app.css": {
-    "file": "assets/app-6b207eb3.css",
+    "file": "assets/app-39f45ec3.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.jsx": {
@@ -14,9 +14,9 @@
       "assets/slider1-aa440e98.jpg"
     ],
     "css": [
-      "assets/app-6b207eb3.css"
+      "assets/app-39f45ec3.css"
     ],
-    "file": "assets/app-de34d863.js",
+    "file": "assets/app-c84b5672.js",
     "isEntry": true,
     "src": "resources/js/app.jsx"
   },

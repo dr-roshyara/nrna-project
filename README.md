@@ -64,3 +64,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+To run locally(Assuming PHP,nodeJS,Composer and Xampp), Follow the following instruction:
+- npm install
+- composer install
+- cp .env.example .env
+- set APP_URL to localhost:8000 for smooth operation of Database
+- php artisan key:generate
+- php artisan db:seed
+- php artisan serve
+- npm run build (npm run dev does not work, the reason is unknown, but changes in Frontend can only be seen after npm run build)

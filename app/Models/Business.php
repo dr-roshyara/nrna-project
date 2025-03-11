@@ -22,6 +22,7 @@ class Business extends Model implements HasMedia
     ];
 
     public function getLogoAttribute() {
+        
         return sizeof($this->getMedia('logo')) > 0 ? $this->getMedia('logo')[0]->getFullUrl() : null;
     }
 
