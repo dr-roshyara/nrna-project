@@ -5,7 +5,7 @@
     "src": "resources/css/app.css"
   },
   "resources/js/app.css": {
-    "file": "assets/app-39f45ec3.css",
+    "file": "assets/app-c773946d.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.jsx": {
@@ -14,9 +14,9 @@
       "assets/slider1-aa440e98.jpg"
     ],
     "css": [
-      "assets/app-39f45ec3.css"
+      "assets/app-c773946d.css"
     ],
-    "file": "assets/app-c84b5672.js",
+    "file": "assets/app-80ab7470.js",
     "isEntry": true,
     "src": "resources/js/app.jsx"
   },

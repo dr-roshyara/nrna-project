@@ -1,7 +1,9 @@
-/* .pin {
+.pin {
+    overflow: hidden;
     width: 30px;
     height: 30px;
     border-radius: 50% 50% 50% 0;
+    border: 3px solid #ee6002;
     background: #ee6002;
     position: absolute;
     -webkit-transform: rotate(-45deg);
@@ -33,30 +35,32 @@
     width: 14px;
     height: 14px;
     margin: 8px 0 0 8px;
-    background: #ffffff;
+    background: #ee6002;
     position: absolute;
     border-radius: 50%;
-} */
+}
 
-.pin {
+/* .pin {
     overflow: hidden;
-    width: 140px;
-    height: 140px;
+    width: 30px;
+    height: 30px;
     border-radius: 50% 50% 50% 0%;
-    border: 15px solid #ee6002;
+    border: 3px solid #ee6002;
     position: absolute;
     transform: rotate(-45deg);
     left: 50%;
     top: 50%;
     margin: -150px 0 0 -75px;
-}
+} */
 
-.pin:after {
+/* .pin:after {
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     background: #ee6002;
     position: absolute;
     z-index: -1;
-}
+    width: 14px;
+    height: 14px;
+} */
 
 .pin-image {
     transform: rotate(45deg);

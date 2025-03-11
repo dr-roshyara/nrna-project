@@ -29,7 +29,7 @@ class CreateBusinessRequest extends FormRequest
             'email' => 'required|unique:businesses',
             'latitude' => 'required',
             'longitude' => 'required',
-            // 'captcha' => 'required|captcha'
+            'captcha' => 'required|captcha'
         ];
     }
 }
