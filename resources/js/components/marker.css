@@ -1,7 +1,7 @@
 .pin {
     overflow: hidden;
-    width: 30px;
-    height: 30px;
+    width: 38px;
+    height: 38px;
     border-radius: 50% 50% 50% 0;
     border: 3px solid #ee6002;
     background: #ee6002;
@@ -39,6 +39,9 @@
     position: absolute;
     border-radius: 50%;
 }
+
+
+
 
 /* .pin {
     overflow: hidden;
