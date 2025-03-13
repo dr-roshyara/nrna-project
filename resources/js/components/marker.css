@@ -13,7 +13,7 @@
     transform: rotate(-45deg);
     left: 50%;
     top: 50%;
-    margin: -20px 0 0 -20px;
+    margin: -28px 0 0 -24px;
     -webkit-animation-name: bounce;
     -moz-animation-name: bounce;
     -o-animation-name: bounce;
@@ -39,31 +39,6 @@
     position: absolute;
     border-radius: 50%;
 }
-
-
-
-
-/* .pin {
-    overflow: hidden;
-    width: 30px;
-    height: 30px;
-    border-radius: 50% 50% 50% 0%;
-    border: 3px solid #ee6002;
-    position: absolute;
-    transform: rotate(-45deg);
-    left: 50%;
-    top: 50%;
-    margin: -150px 0 0 -75px;
-} */
-
-/* .pin:after {
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    background: #ee6002;
-    position: absolute;
-    z-index: -1;
-    width: 14px;
-    height: 14px;
-} */
 
 .pin-image {
     transform: rotate(45deg);
