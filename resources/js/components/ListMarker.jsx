@@ -5,14 +5,8 @@ export default function ListMarker({ business }) {
     const content = (
         <div>
             {/* added here */}  
-            {/* <img src={`${business.media[0].original_url}`} alt=""  height="250"
-                className="object-cover rounded-md w-fit" /> */}
-             {/* <img src= "http://127.0.0.1:8000/storage/3/rest.png"      alt=""  height="250"
-                className="object-cover rounded-md w-fit" /> */}
-
                <img src={`${business.media[0].original_url}`} alt=""  
                 className="object-cover rounded-md w-fit" /> 
-                
             {/* till here */}
             <p className="font-semibold">{business.business_name}</p>
 
@@ -87,7 +81,6 @@ export default function ListMarker({ business }) {
         <Popover content={content} title={business.full_name}>
             <>
                 <div className="pin">
-                    {/* echo `${business.media[0].original_url}`; */}
                     {/* added here */}
                      <img src={`${business.media[0].original_url}`} alt=""
                 className="pin-image" />
